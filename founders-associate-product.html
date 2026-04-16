@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="page-shell">
+    <main class="page-shell page-shell--narrow">
       <article class="job-card">
-        <header class="section section--intro" data-reveal>
-          <div class="intro__topbar">
+        <header class="section--intro" data-reveal>
+          <div class="detail-topbar">
+            <a class="back-link" href="./index.html">← Offene Stellen</a>
             <a class="brand brand--link" href="https://medmatic.io/">
               <img
                 class="brand__logo"
@@ -28,130 +29,117 @@
                 alt="Medmatic"
               />
             </a>
-
-            <a class="back-link" href="./index.html">← Alle Rollen</a>
           </div>
 
-          <h1>Wir suchen: Founders Associate (Product)</h1>
-
-          <div class="intro__pills" aria-label="Rahmendaten">
-            <span class="pill">🧑‍💻 Vollzeit</span>
-            <span class="pill">📍 In München</span>
-          </div>
-
-          <div class="intro__highlight">
-            <span class="intro__highlight-icon" aria-hidden="true">🤖</span>
-            <p class="intro__lead">
+          <div class="detail-header">
+            <h1 class="detail-title">Founders Associate (Product)</h1>
+            <p class="detail-intro">
               Einmalige Chance, als erster Vollzeit-Mitarbeiter mitzuerleben,
-              wie man als kleines AI-native Team, eine profitable
-              Firma bootstrappt.
+              wie man im AI-Zeitalter eine profitable Firma bootstrappt.
             </p>
           </div>
         </header>
 
         <section class="section" data-reveal>
-          <div class="section__header">
-            <h2><span class="section__emoji">👋</span>Über uns</h2>
-          </div>
-          <div class="section__body">
-            <p>
-              Über 80 % der deutschen Krankenhäuser sind defizitär. Mit unserer
-              KI für Abrechnung und Fallsteuerung helfen wir Kliniken, Umsatz,
-              Liquidität und Prüfsicherheit zu verbessern.
-            </p>
-            <p>
-              Gegründet von Constantin (Gesundheits-Startup während des
-              Studiums verkauft, danach mit YEARS Deutschlands erste
-              Longevity-Klinik aufgebaut) und Manuel (Arzt und Informatiker,
-              u. a. Cambridge, zuletzt am Krebszentrum des LMU-Klinikums).
-            </p>
-            <p>
-              Als bootstrapped Zweier-Team haben wir in einer der
-              konservativsten und reguliertesten Industrien Deutschlands in wenigen Monaten:
-            </p>
-            <ul class="feature-list feature-list--about">
-              <li>Einen hohen sechsstelligen ARR erreicht – gesichert durch Mehrjahresverträge</li>
-              <li>Profitabilität erreicht</li>
-              <li>Öffentliche, private und kirchliche Krankenhäuser als Kunden gewonnen</li>
-              <li>Monatlich Millionenvolumen für Kunden prozessiert</li>
-              <li>300.000 EUR non-dilutive Hightech-Förderung eingesammelt</li>
-            </ul>
-            <p>
-              Wir sind AI-native – intern wie auf Produktseite – und werden
-              bewusst kein großes Team aufbauen. Jetzt suchen wir erstmals
-              Vollzeit-Verstärkung.
-            </p>
-          </div>
-        </section>
+          <div class="detail-layout">
+            <aside class="detail-sidebar">
+              <div class="meta-list">
+                <div class="meta-item">
+                  <span class="meta-label">Standort</span>
+                  <span class="meta-value">München</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Anstellungsart</span>
+                  <span class="meta-value">Vollzeit</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Arbeitsort</span>
+                  <span class="meta-value">On-site</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Bereich</span>
+                  <span class="meta-value">Product</span>
+                </div>
+              </div>
+            </aside>
 
-        <section class="section" id="profil" data-reveal>
-          <div class="section__header">
-            <h2><span class="section__emoji">🧠</span>Dein Profil</h2>
-          </div>
-          <ul class="feature-list">
-            <li>
-              Du verbindest Medizin und Technik – z. B. Medizininformatik, Arzt
-              mit Programmiererfahrung oder vergleichbar
-            </li>
-            <li>Eigene KI-Projekte, die dein Interesse am Thema nachweisen</li>
-            <li>Strukturiert, proaktiv, selbstständig</li>
-            <li>Deutsch auf C2-Niveau</li>
-          </ul>
-        </section>
+            <div class="detail-content">
+              <section class="content-section content-copy">
+                <h2>Über uns</h2>
+                <p>
+                  Über 80 % der deutschen Krankenhäuser sind defizitär. Mit
+                  unserer KI für Abrechnung und Fallsteuerung helfen wir
+                  Kliniken, Umsatz, Liquidität und Prüfsicherheit zu
+                  verbessern.
+                </p>
+                <p>
+                  Gegründet von Constantin (Gesundheits-Startup während des
+                  Studiums verkauft, danach mit YEARS Deutschlands erste
+                  Longevity-Klinik aufgebaut) und Manuel (Arzt und
+                  Informatiker, u. a. Cambridge, zuletzt am Krebszentrum des
+                  LMU-Klinikums).
+                </p>
+                <p>
+                  Als bootstrapped Zweier-Team haben wir in einer der
+                  konservativsten Industrien Deutschlands in wenigen Monaten:
+                </p>
+                <ul>
+                  <li>Einen hohen sechsstelligen ARR erreicht – gesichert durch Mehrjahresverträge</li>
+                  <li>Profitabilität erreicht</li>
+                  <li>Öffentliche, private und kirchliche Krankenhäuser als Kunden gewonnen</li>
+                  <li>Monatlich Millionenvolumen für Kunden prozessiert</li>
+                  <li>300.000 EUR non-dilutive Hightech-Förderung eingesammelt</li>
+                </ul>
+                <p>
+                  Wir sind AI-native – intern wie auf Produktseite – und werden
+                  bewusst kein großes Team aufbauen. Jetzt suchen wir erstmals
+                  Vollzeit-Verstärkung.
+                </p>
+              </section>
 
-        <section class="section" data-reveal>
-          <div class="section__header">
-            <h2><span class="section__emoji">⚙️</span>Deine Aufgaben</h2>
-          </div>
-          <ul class="feature-list">
-            <li>
-              Probleme in der Kodierungspipeline (vor Ort beim Kunden) identifizieren und neue KI-Ansatzpunkte für Fallsteuerung, Abrechnung und Prozessoptimierung aufdecken
-            </li>
-            <li>
-              Technische Umsetzung: Verbesserungen an der bestehenden Pipeline
-              sowie neue Features – von der Demo bis Production (je nach
-              Erfahrung)
-            </li>
-            <li>
-              Je nach Fähigkeiten und Interesse: Unterstützung bei sonstigen Aufgaben die in einem Early Stage Startup anfallen.
-            </li>
-          </ul>
-        </section>
+              <section class="content-section content-copy" id="profil">
+                <h2>Dein Profil</h2>
+                <ul>
+                  <li>Du verbindest Medizin und Technik – z. B. Medizininformatik, Arzt mit Programmiererfahrung oder vergleichbar</li>
+                  <li>Eigene KI-Projekte, die dein Interesse am Thema nachweisen</li>
+                  <li>Strukturiert, proaktiv, selbstständig</li>
+                  <li>Deutsch auf C2-Niveau</li>
+                </ul>
+              </section>
 
-        <section class="section" data-reveal>
-          <div class="section__header">
-            <h2><span class="section__emoji">✨</span>Was dich erwartet</h2>
-          </div>
-          <ul class="feature-list">
-            <li>
-              Einblick, wie man im AI-Zeitalter ohne VC eine profitable Firma
-              aufbaut.
-            </li>
-            <li>KI nicht als Schlagwort, sondern im klinischen Alltag.</li>
-            <li>Direkte, enge Zusammenarbeit mit den Gründern.</li>
-            <li>
-              Echter Gestaltungsspielraum – kein Buzzword, sondern Realität in
-              einem winzigen Team.
-            </li>
-            <li>
-              Wettbewerbsfähige Vergütung (Gehalt und Firmenanteile).
-            </li>
-          </ul>
-          <p class="section__note">
-            Kein Fundraising-Hype, dafür eine einmalige Lernchance.
-          </p>
-        </section>
+              <section class="content-section content-copy">
+                <h2>Deine Aufgaben</h2>
+                <ul>
+                  <li>Vor Ort bei Kunden: Probleme in der Kodierungspipeline identifizieren und neue KI-Ansatzpunkte für Fallsteuerung und Abrechnung aufdecken</li>
+                  <li>Technische Umsetzung: Verbesserungen an der bestehenden Pipeline sowie neue Features – von der Demo bis Production (je nach Erfahrung)</li>
+                </ul>
+              </section>
 
-        <section class="cta" data-reveal>
-          <div class="section__header">
-            <h2><span class="section__emoji">📬</span>Jetzt bewerben</h2>
+              <section class="content-section content-copy">
+                <h2>Was dich erwartet</h2>
+                <ul>
+                  <li>Einblick, wie man im AI-Zeitalter ohne VC eine profitable Firma aufbaut</li>
+                  <li>KI nicht als Schlagwort, sondern im klinischen Alltag</li>
+                  <li>Direkte, enge Zusammenarbeit mit den Gründern</li>
+                  <li>Echter Gestaltungsspielraum – kein Buzzword, sondern Realität in einem winzigen Team</li>
+                </ul>
+                <p>
+                  Kein Fundraising-Hype, kein fancy Office – dafür eine
+                  einmalige Lernchance.
+                </p>
+              </section>
+
+              <section class="apply-box">
+                <h2>Bewerbung</h2>
+                <p>
+                  Per E-Mail an
+                  <a class="text-link" href="mailto:careers@medmatic.ai">
+                    careers@medmatic.ai
+                  </a>
+                </p>
+              </section>
+            </div>
           </div>
-          <p class="cta__secondary">
-            Per E-Mail an
-            <a class="cta__text-link" href="mailto:careers@medmatic.ai">
-              careers@medmatic.ai
-            </a>
-          </p>
         </section>
       </article>
     </main>
