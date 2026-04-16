@@ -348,6 +348,19 @@ h2 {
   box-shadow: 0 10px 22px rgba(57, 78, 137, 0.10);
 }
 
+.cta__secondary {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.cta__text-link {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #c9d1ea;
+  text-underline-offset: 0.16em;
+}
+
 .job-list {
   display: grid;
   gap: 1rem;
