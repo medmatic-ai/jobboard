@@ -7,6 +7,14 @@ if (revealElements.length) {
     });
   };
 
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    const viewportHeight =
+      window.innerHeight || document.documentElement.clientHeight;
+
+    return rect.top < viewportHeight * 0.92 && rect.bottom > 0;
+  };
+
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
@@ -36,6 +44,11 @@ if (revealElements.length) {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         revealElements.forEach((element) => {
+          if (isInViewport(element)) {
+            reveal(element);
+            return;
+          }
+
           observer.observe(element);
         });
       });
