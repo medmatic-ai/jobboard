@@ -571,6 +571,10 @@ a {
     border-radius: 18px;
   }
 
+  .job-row + .job-row {
+    margin-top: 0.85rem;
+  }
+
   .job-row__header {
     align-items: flex-start;
     gap: 0.7rem;
